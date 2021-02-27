@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>lusongno1</author>
+ <class>XMtool</class>
+ <widget class="QDialog" name="XMtool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>622</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;欢迎使用小明选股软件！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="whatsThis">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;不认识爸爸？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="formGroupBox_2">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_18">
+        <property name="text">
+         <string>基金数据参数设定：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>小明已确定</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QFrame" name="frame">
+        <layout class="QFormLayout" name="formLayout_4">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>日增长率</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="r1r">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>近1周</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="r1z">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>近1月</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="r1y">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>近3月</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="r3y">
+           <property name="text">
+            <string>0.33333</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>近6月</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="r6y">
+           <property name="text">
+            <string>0.33333</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>近1年</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="r1n">
+           <property name="text">
+            <string>0.25</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>近2年</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLineEdit" name="r2n">
+           <property name="text">
+            <string>0.25</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>近3年</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QLineEdit" name="r3n">
+           <property name="text">
+            <string>0.25</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>今年来</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QLineEdit" name="rjnl">
+           <property name="text">
+            <string>0.25</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>成立来</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QLineEdit" name="rcll">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QFrame" name="frame_2">
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>18</y>
+           <width>96</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>样本数量</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>61</y>
+           <width>96</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>排序键值</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="sc">
+         <property name="geometry">
+          <rect>
+           <x>126</x>
+           <y>61</y>
+           <width>91</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>6yzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>dm</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>jc</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>jzrq</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>dwjz</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ljjz</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>rzdf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>zzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1yzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3yzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1nzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2nzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3nzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>jnzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>lnzf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>103</y>
+           <width>96</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>排序方式</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="st">
+         <property name="geometry">
+          <rect>
+           <x>126</x>
+           <y>103</y>
+           <width>90</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>desc</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>asc</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>145</y>
+           <width>96</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>基金类型</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="ft">
+         <property name="geometry">
+          <rect>
+           <x>126</x>
+           <y>145</y>
+           <width>90</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>all</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>gp</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>hh</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>zs</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>qdii</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>zq</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>lof</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>fof</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>187</y>
+           <width>96</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>是否可购</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="dx">
+         <property name="geometry">
+          <rect>
+           <x>126</x>
+           <y>187</y>
+           <width>55</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>229</y>
+           <width>96</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>季度选择</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="season">
+         <property name="geometry">
+          <rect>
+           <x>126</x>
+           <y>229</y>
+           <width>56</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLineEdit" name="sample">
+         <property name="geometry">
+          <rect>
+           <x>126</x>
+           <y>18</y>
+           <width>151</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>15000</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>四四三三法则参数：</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>frame</zorder>
+     <zorder>frame_2</zorder>
+     <zorder>label_18</zorder>
+     <zorder>label_17</zorder>
+     <zorder>pushButton</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>XMtool</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>192</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>617</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
